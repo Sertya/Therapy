@@ -15,6 +15,7 @@ body{
     margin: 0 auto;
 }
 
+
 .general{
     display: flex;
     justify-content: space-between;
@@ -22,13 +23,11 @@ body{
 }
 header{
     position: relative;
-    
     height: 736px;
     background-image: url(img/hero-image.png);
     background-size: cover;
     background-position: center;
     z-index: 5;
-
 }
 .logo p{
     font-size: 18px;
@@ -92,6 +91,7 @@ h4{
     margin: 5px 0 30px 0;
     color: #696969;
 }
+
 .mission{
     margin: 0 auto;
     padding-top: 418px;
@@ -107,11 +107,6 @@ h4{
     line-height: 1.58;
     text-align: center;
     color: #1d2027;
-    
-    /* background: url(img/delghter-1.svg) no-repeat, url(img/delighter-2.svg) no-repeat, url(img/delighter-3.svg) no-repeat, url(img/delghter-1.svg) no-repeat;
-    background-position: 18.28% 0, top right, 0 80%, 89% 87%;
-    background-size: 9%, 23%, 23%, 6%; */
-
 }
 
 .core_values, .evidence, .testimonials, .products_pipeline, .research_partners, .leadership{
@@ -129,6 +124,7 @@ h4{
     line-height: 2;
     text-align: left;
 }
+
 .approach{
     padding: 70px 18.36% 40px 18.36%;
     background: url(img/delghter-1.svg) no-repeat, url(img/delighter-2.svg) no-repeat, url(img/delighter-3.svg) no-repeat, url(img/delghter-1.svg) no-repeat, #fff7fe;
@@ -143,7 +139,6 @@ h4{
     margin-top: 77px;
 }
 .approach_item{
-    
     padding: 20px;
     margin: 0 15px 30px 15px;
     border-radius: 17px;
@@ -160,6 +155,7 @@ h3{
     line-height: 2.05;
     text-align: left;
 }
+
 .evidence_cards, .testimonials_cards{
     display: flex;
     justify-content: space-around;
@@ -171,7 +167,6 @@ h3{
     box-shadow: 0 25px 34px 0 rgba(0, 0, 0, 0.1);
     margin-bottom: 30px;
     background: #fff;
-    
 }
 .card img{
     min-width: 100%;
@@ -198,6 +193,7 @@ h3{
     float: right;
     cursor: pointer;
 }
+
 .testimonials{
     background-color: #f5fdff;
 }
@@ -220,7 +216,6 @@ h3{
     line-height: 1.58;
     text-align: center;
     color: #1d2027;
-
 }
 .testimonials .user_signature {
     padding-top: 15px;
@@ -249,7 +244,6 @@ h3{
     background-color: #1d2027;
     border-radius: 100%;
     margin: 5px;
-    
 }
 .point{
     width: 8px;
@@ -258,7 +252,6 @@ h3{
     border-radius: 100%;
     margin: 5px;
 }
-
 
 .products_pipeline p, .research_partners p{
     max-width: 801px;
@@ -406,7 +399,6 @@ h3{
     font-weight: normal;
     padding-left: 20px;
     margin-bottom: 20px;
-    
     border-radius: 6px;
     background-color: #f5fdff;
 }
@@ -445,12 +437,10 @@ h3{
 .send{
     display: flex;
     justify-content: flex-end; 
-    
 }
 .send .blue{
     padding-left: 0;
     margin: unset;
-    
 }
 
 .contacts_right{
@@ -469,7 +459,6 @@ h3{
 }
 .footer_content_top li{
     margin-bottom: 15px;
-    
 }
 .footer_content_top a{
     color: #000;
@@ -525,29 +514,6 @@ h3{
 
 
 
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -562,7 +528,6 @@ h3{
     .topnav a{
         display: none;
     }
-    
     .topnav .icon{
         display: block;
         float: right;
@@ -594,7 +559,6 @@ h3{
     }
     .evidence_cards, .testimonials_cards{
         flex-direction: column;
-        
     }
     .card{
         max-width: none;
@@ -602,17 +566,8 @@ h3{
         margin: 0 auto 50px auto;
         text-align: center;
     }
-    .card img{
-        
-    }
     .user_img {
         min-width: 40%;
-    }
-    .arrow_left_right img {
-        
-    }
-    .product{
-
     }
     .leadership_cards{
         flex-direction: column;
