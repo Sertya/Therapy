@@ -1,5 +1,3 @@
 # Therapy
 
-[Therapy] (https://sertya.github.io/Therapy/ "Therapy")
-
-
+[Therapy](https://sertya.github.io/Therapy "Therapy")
