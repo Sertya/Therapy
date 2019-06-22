@@ -1,4 +1,7 @@
-menu.onclick = function menuClassName() {
+document.querySelector('.menu').addEventListener('click', changeClassName)
+
+
+function changeClassName() {
     let menuHide = document.getElementById('navigation');
-    menuHide.className === 'topnav' ? menuHide.className = 'topnav responsive' : menuHide.className = 'topnav';
+    menuHide.classList.toggle('responsive');
 }
